@@ -1,0 +1,19 @@
+body {
+    font-family: "Single Day";
+    color: white;
+    background-color: #0d1117;
+}
+
+#sujade {
+    max-width: 250px;
+    border: 5px solid #A2A6F7;
+    border-radius: 50%;
+}
+
+.tech-buttons {
+    transition: transform 150ms;
+}
+
+.tech-buttons:hover {
+    transform: scale(1.2);
+}
