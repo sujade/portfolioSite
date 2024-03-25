@@ -6,9 +6,10 @@ body {
 
 #sujade {
     max-width: 250px;
-    border: 5px solid #A2A6F7;
+    border: 5px solid #342e62;
     border-radius: 50%;
 }
+
 
 .tech-buttons {
     transition: transform 150ms;
@@ -16,4 +17,18 @@ body {
 
 .tech-buttons:hover {
     transform: scale(1.2);
+}
+
+#projects {
+    background-color: #342e62;
+}
+
+.card {
+    background-color: #0d1117;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

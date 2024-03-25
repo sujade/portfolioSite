@@ -8,9 +8,9 @@ const Header = () => {
                 <h1>Developing with creativity and drive!</h1>
             </Row>
 
-            <Row className=" mt-5 justify-content-md-center">
+            <Row className="rounded-pill pt-5 pb-5 justify-content-md-center">
                 <Col></Col>
-                <Col><img id="sujade" src={Photo} alt="Su Jade"/></Col>
+                <Col><img id="sujade" className="border border-black border-5" src={Photo} alt="Su Jade"/></Col>
 
                 <Col className="mt-3">
                     <h3>Hey, I'm Su! I'm a web developer based in Germany.</h3>
