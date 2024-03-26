@@ -11,7 +11,7 @@ const Header = () => {
             <Row className="text-center text-md-start rounded-pill pt-5 pb-5 justify-content-md-center">
                 <Col></Col>
 
-                <Col xs={12} md={4}><img id="sujade" className="border border-black border-5" src={Photo} alt="Su Jade"/></Col>
+                <Col xs={12} md={4}><img id="sujade" src={Photo} alt="Su Jade"/></Col>
 
                 <Col xs={12} md={4} className="mt-3">
                     <h3>Hey, I'm Su! I'm a web developer based in Germany.</h3>
