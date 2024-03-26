@@ -8,11 +8,12 @@ const Header = () => {
                 <h1>Developing with creativity and drive!</h1>
             </Row>
 
-            <Row className="rounded-pill pt-5 pb-5 justify-content-md-center">
+            <Row className="text-center text-md-start rounded-pill pt-5 pb-5 justify-content-md-center">
                 <Col></Col>
-                <Col><img id="sujade" className="border border-black border-5" src={Photo} alt="Su Jade"/></Col>
 
-                <Col className="mt-3">
+                <Col xs={12} md={4}><img id="sujade" className="border border-black border-5" src={Photo} alt="Su Jade"/></Col>
+
+                <Col xs={12} md={4} className="mt-3">
                     <h3>Hey, I'm Su! I'm a web developer based in Germany.</h3>
                     <p>I have been mostly working as a translator before changing fields. My challenge driven and
                         learning-by-doing nature led me to software development and helped me picking up new

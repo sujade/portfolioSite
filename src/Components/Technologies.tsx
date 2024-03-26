@@ -13,22 +13,18 @@ import { DiMongodb } from "react-icons/di";
 
 const Technologies = () => {
     return (
-        <Container className="mt-5 text-center">
+        <Container className="text-center">
             <Row className="mb-3"><h2>Technologies:</h2></Row>
-            <Row>
-                <Col></Col>
-                <Col></Col>
-                <Col className="tech-buttons"><FaHtml5 size={50} /> <br/> HTML </Col>
-                <Col className="tech-buttons"><FaCss3Alt size={50} /> <br/> CSS </Col>
-                <Col className="tech-buttons"><FaBootstrap size={50} /> <br/> Bootstrap </Col>
-                <Col className="tech-buttons"><SiTailwindcss size={50} /> <br/> Tailwind </Col>
-                <Col className="tech-buttons"><SiJavascript size={50} /> <br/> JavaScript </Col>
-                <Col className="tech-buttons"><FaReact size={50} /> <br/> React </Col>
-                <Col className="tech-buttons"><BiLogoTypescript size={50} /> <br/> TypeScript </Col>
-                <Col className="tech-buttons"><FaNodeJs size={50} /> <br/> Node.js </Col>
-                <Col className="tech-buttons"><DiMongodb size={50} /> <br/> MongoDB </Col>
-                <Col className="tech-buttons"></Col>
-                <Col className="tech-buttons"></Col>
+            <Row className="d-flex">
+                <Col className="icon"><FaHtml5 size={50} /> <br/> HTML </Col>
+                <Col className="icon"><FaCss3Alt size={50} /> <br/> CSS </Col>
+                <Col className="icon"><FaBootstrap size={50} /> <br/> Bootstrap </Col>
+                <Col className="icon"><SiTailwindcss size={50} /> <br/> Tailwind </Col>
+                <Col className="icon"><SiJavascript size={50} /> <br/> JavaScript </Col>
+                <Col className="icon"><FaReact size={50} /> <br/> React </Col>
+                <Col className="icon"><BiLogoTypescript size={50} /> <br/> TypeScript </Col>
+                <Col className="icon"><FaNodeJs size={50} /> <br/> Node.js </Col>
+                <Col className="icon"><DiMongodb size={50} /> <br/> MongoDB </Col>
             </Row>
 
         </Container>

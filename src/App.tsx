@@ -6,6 +6,8 @@ import "./App.css"
 import Header from "./Components/Header.tsx";
 import Technologies from "./Components/Technologies.tsx";
 import Projects from "./Components/Projects.tsx";
+import Footer from "./Components/Footer.tsx";
+import Love from './Components/Love.tsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -13,5 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Header/>
         <Technologies/>
         <Projects/>
+        <Footer/>
+        <Love/>
     </React.StrictMode>,
 )

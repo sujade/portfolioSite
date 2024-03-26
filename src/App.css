@@ -11,11 +11,11 @@ body {
 }
 
 
-.tech-buttons {
+.icon {
     transition: transform 150ms;
 }
 
-.tech-buttons:hover {
+.icon:hover {
     transform: scale(1.2);
 }
 
