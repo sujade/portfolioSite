@@ -6,7 +6,7 @@ body {
 
 #sujade {
     max-width: 250px;
-    border: 5px solid #342e62;
+    border: 5px solid #481ba6;
     border-radius: 50%;
     outline: 5px solid black;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 #projects {
-    background-color: #342e62;
+    background-color: #481ba6;
 }
 
 .card {
