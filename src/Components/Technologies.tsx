@@ -10,6 +10,7 @@ import { FaReact } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
+import { FaSass } from "react-icons/fa";
 
 const Technologies = () => {
     return (
@@ -18,6 +19,7 @@ const Technologies = () => {
             <Row className="d-flex">
                 <Col className="icon"><FaHtml5 size={50} /> <br/> HTML </Col>
                 <Col className="icon"><FaCss3Alt size={50} /> <br/> CSS </Col>
+                <Col className="icon"><FaSass size={50} /> <br/> SASS </Col>
                 <Col className="icon"><FaBootstrap size={50} /> <br/> Bootstrap </Col>
                 <Col className="icon"><SiTailwindcss size={50} /> <br/> Tailwind </Col>
                 <Col className="icon"><SiJavascript size={50} /> <br/> JavaScript </Col>
