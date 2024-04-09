@@ -11,6 +11,8 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { FaSass } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+
 
 const Technologies = () => {
     return (
@@ -24,6 +26,7 @@ const Technologies = () => {
                 <Col className="icon"><SiTailwindcss size={50} /> <br/> Tailwind </Col>
                 <Col className="icon"><SiJavascript size={50} /> <br/> JavaScript </Col>
                 <Col className="icon"><FaReact size={50} /> <br/> React </Col>
+                <Col className="icon"><SiNextdotjs size={50} /> <br/> MongoDB </Col>
                 <Col className="icon"><BiLogoTypescript size={50} /> <br/> TypeScript </Col>
                 <Col className="icon"><FaNodeJs size={50} /> <br/> Node.js </Col>
                 <Col className="icon"><DiMongodb size={50} /> <br/> MongoDB </Col>
