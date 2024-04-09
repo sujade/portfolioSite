@@ -8,7 +8,7 @@ import Codedex from "../images/pic04.png";
 const Projects = () => {
     return (
         <Container id="projects"
-                   className="py-5 py-md-0 text-center mt-5 shadow-sm rounded-pill border border-black border-5">
+                   className="py-5 py-md-0 text-center mt-5 shadow-sm border border-black border-5 rounded-5">
             <Row><h2 className="mt-3">My Projects:</h2>
                 <p>Here, you can see some projects that <br className="d-inline d-md-none"/> I've made or took part in.
                 </p></Row>
@@ -30,14 +30,16 @@ const Projects = () => {
                             demoUrl="https://thinkbigproject.netlify.app/"
                             repoUrl="https://github.com/thinkbig-project/thinkbig"
                         />
-                    </Row>
-                    <Row className="d-flex justify-content-center gap-5">
+
                         <CustomCard
                             title="Driftify.se"
                             text="A website revamp project for the IT Company Driftfiy. The revamp was completely front-end based and design-heavy."
                             image={Driftify}
                             demoUrl="https://driftify.se"
                         />
+                    </Row>
+                    <Row className="d-flex justify-content-center gap-5">
+
 
                         <CustomCard
                             title="Codédex Personality Test"
