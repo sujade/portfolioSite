@@ -20,8 +20,9 @@ body {
     transform: scale(1.2);
 }
 
-#projects {
-    background-color: #481ba6;
+.projects {
+    border: 5px solid #481ba6;
+    outline: 5px solid black;
 }
 
 .card {
