@@ -23,6 +23,7 @@ body {
 .projects {
     border: 5px solid #481ba6;
     outline: 5px solid black;
+    display: inline-block;
 }
 
 .card {
