@@ -44,7 +44,7 @@ const Projects = () => {
                         <div className={"projects px-2"}>
                             <CustomCard
                                 title="Driftify.se"
-                                text="A website revamp project for the IT Company Driftfiy. The revamp was completely front-end based and design-heavy."
+                                text="A website revamp project for my client IT Company Driftfiy. The revamp was completely front-end based and design-heavy."
                                 image={Driftify}
                                 demoUrl="https://driftify.se"
                             />
