@@ -43,7 +43,7 @@ const Projects = () => {
                         </div>
                         <div className={"projects px-2"}>
                             <CustomCard
-                                title="Driftify.se"
+                                title="Driftify.se (Client Project)"
                                 text="A website revamp project for my client IT Company Driftfiy. The revamp was completely front-end based and design-heavy."
                                 image={Driftify}
                                 demoUrl="https://driftify.se"
