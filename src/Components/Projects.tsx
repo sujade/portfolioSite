@@ -8,8 +8,8 @@ import Codedex from "../images/pic04.png";
 const Projects = () => {
     return (
         <Container className="py-5 py-md-0 text-center mt-5">
-            <Row><h2 className="mt-3">My Projects:</h2>
-                <p>Here, you can see some projects that <br className="d-inline d-md-none"/> I've made or took part in.
+            <Row><h2 className="mt-3">My Works:</h2>
+                <p>Here, you can see some projects and works that <br className="d-inline d-md-none"/> I've made or took part in.
                 </p></Row>
             <Row className="justify-content-center">
                 <div className={"d-flex flex-wrap justify-content-center mx-auto"}>
